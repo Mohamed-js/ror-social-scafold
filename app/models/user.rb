@@ -12,7 +12,7 @@ class User < ApplicationRecord
   has_many :posts
   has_many :comments, dependent: :destroy
   has_many :likes, dependent: :destroy
- 
+
   has_many :pending_friendships, -> { where status: false }, class_name: :Friendships, foreign_key: :creator_id
   has_many :pending_friends, through: :pending_friendships, source: :friend
 
