@@ -1,4 +1,4 @@
-# Raven Social media website
+# ROR Scaffold Social media
 
 This project is a social mdia website build with Ruby on Rails.
 
@@ -43,17 +43,17 @@ Ruby: 2.7.2 Rails: 6.1.1 Postgres: >=13
 
 ## Authors
 
-👤 **Denis Lafontant**
+👤 **Mohamed Atef**
 
-- GitHub: [@icebox827](https://github.com/icebox827)
-- Twitter: [@heracles2k5](https://twitter.com/@heracles2k5)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/denis-lafontant/)
+- GitHub: [@mohamed-js](https://github.com/Mohamed-js)
+- Twitter: [@demovejetta](https://twitter.com/demovejetta)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-js/)
 
-👤 **Victor Pacheco**
+👤 **Andres Felipe Castañeda Ramos**
 
-- GitHub: [@vichuge](https://github.com/vichuge)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/victor-pacheco-7946aab2/)
-- Twitter: [@Pachecofloresv](https://twitter.com/Pachecofloresv)
+- Github: [@afcastaneda223](https://github.com/afcastaneda223)
+- Twitter: [@afcastaneda](https://twitter.com/afcastaneda)
+- Linkedin: [Andres Felipe Castañeda](www.linkedin.com/in/andres-castaneda223)
 
 
 ## 🤝 Contributing
