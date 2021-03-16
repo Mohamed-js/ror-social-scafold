@@ -7,7 +7,7 @@ RSpec.describe Post, type: :model do
     end
 
     it 'is valid with attributes' do
-        u = User.create!(email: 'testa1@dfgemail.com', name: 'test1', gravatar_url: 'http://www.gravatar.com/awvatar/%22', password: '1231e23')
+        u = User.create!(email: 'tegfdsta1@dfgemail.com', name: 'tesdfst1', gravatar_url: 'http://wdfww.gravatar.com/awvatar/%22', password: 'f1231e23')
         expect(u.posts.build(content:"asd")).to be_valid
     end
 end
