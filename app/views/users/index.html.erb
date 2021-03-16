@@ -1,20 +1,7 @@
 <section class="users-section">
   <ul class="users-list">
     <% @users.each do |user| %>
-      <% unless user == current_user %>
-      
-        <li>
-          <span class="profile-link">
-            <div class = 'container'>
-              <h1><%= link_to user.name,  user_path(user), class: 'profile-link' %></h1>
-              <% unless my_friends.include?(user) %>
-                <%= render 'friendships/friend_request', user: user %>
-              <% end %>
-            </div>
-          </span>
-        </li>
-        
-      <% end %>
+      <%= users_list(user, current_user, "users/member") %>
     <% end %>
   </ul>
   <%= @userscontroller %>

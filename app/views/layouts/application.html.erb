@@ -13,13 +13,13 @@
       <%= link_to 'Stay in touch', root_path %>
       <div class="menu">
         <div class="menu-item">
-          <%= menu_link_to 'Timeline', posts_path %>
+          <%= link_to 'Timeline', posts_path %>
         </div>
         <div class="menu-item">
-          <%= menu_link_to 'Users', users_path %>
+          <%= link_to 'Users', users_path %>
         </div>
         <div class="menu-item">
-          <%= menu_link_to 'Friend requests', friendships_path %>
+          <%= link_to 'Friend requests', friendships_path %>
         </div>
       </div>
       <% if current_user %>

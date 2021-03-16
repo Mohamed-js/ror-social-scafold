@@ -3,7 +3,7 @@
     <h3>PENDING REQUESTS:</h3>
       <ul class="f-requests">
         <% @friendships.each do |f| %>
-        <% if row_creator(f) && f.creator_id != current_user.id %>
+        <% if User.row_creator(f) && f.creator_id != current_user.id %>
           <li>
             <%= form_with(url: 'friendships/'+f.id.to_s, method: 'PATCH', local: true) do |form| %>
               <%= form.hidden_field :friendship_id, class: 'form-control', value: f.id %>
