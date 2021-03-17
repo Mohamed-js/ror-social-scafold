@@ -16,5 +16,5 @@ test:
 production:
   <<: *default
   database: sportive_production2
-  username: username
+  username: postrges
   password: <%= ENV['PROJECT_DATABASE_PASSWORD'] %>
