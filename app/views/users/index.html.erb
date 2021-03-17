@@ -1,8 +1,8 @@
 <section class="users-section">
-  <ul class="users-list">
-    <% @users.each do |user| %>
-      <%= users_list(user, current_user, "users/member") %>
-    <% end %>
-  </ul>
-  <%= @userscontroller %>
+    <ul class="users-list">
+        <% @users.each do |user| %>
+        <%= users_list(user, current_user, "users/member") %>
+        <% end %>
+    </ul>
+    <%= @userscontroller %>
 </section>
