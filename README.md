@@ -33,7 +33,7 @@ Ruby: 2.7.2 Rails: 6.1.1 Postgres: >=13
 
 ## Live demo
 
-[Just click here!]()
+[Just click here!](https://desolate-reef-49939.herokuapp.com/users/sign_in)
 
 ## Technologies
 
