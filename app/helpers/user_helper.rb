@@ -10,6 +10,4 @@ module UserHelper
             render 'friendships/friend_request', user: user
         end
     end
-    
-    
 end
