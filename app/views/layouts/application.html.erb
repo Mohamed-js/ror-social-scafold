@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>ROR Scaffold Social Media</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_link_tag "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
-  <body>
+</head>
+
+<body>
     <nav class="nav">
-      <%= link_to 'Stay in touch', root_path %>
-      <div class="menu">
-        <div class="menu-item">
-          <%= link_to 'Timeline', posts_path %>
+        <%= link_to 'Stay in touch', root_path %>
+        <div class="menu">
+            <div class="menu-item">
+                <%= link_to 'Timeline', posts_path %>
+            </div>
+            <div class="menu-item">
+                <%= link_to 'Users', users_path %>
+            </div>
+            <div class="menu-item">
+                <%= link_to 'Friend requests', friendships_path %>
+            </div>
         </div>
-        <div class="menu-item">
-          <%= link_to 'Users', users_path %>
-        </div>
-        <div class="menu-item">
-          <%= link_to 'Friend requests', friendships_path %>
-        </div>
-      </div>
-      <% if current_user %>
+        <% if current_user %>
         <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
-      <% else %>
+        <% else %>
         <%= link_to 'Sign in', user_session_path %>
-      <% end %>
+        <% end %>
     </nav>
     <% if notice.present? %>
-      <div class="notice">
+    <div class="notice">
         <p> <%= notice %> </p>
-      </div>
+    </div>
     <% end %>
     <% if alert.present? %>
-      <div class="alert">
+    <div class="alert">
         <p> <%= alert %> </p>
-      </div>
+    </div>
     <% end %>
     <main class="main">
-      <%= yield %>
+        <%= yield %>
     </main>
-  </body>
+</body>
+
 </html>
