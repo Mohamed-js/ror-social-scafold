@@ -1,4 +1,4 @@
-# Raven Social media website
+# ROR Scaffold Social media
 
 This project is a social mdia website build with Ruby on Rails.
 
@@ -9,6 +9,7 @@ This project is a social mdia website
 It focuses on creating User with validations and associations on rails using Active Record, and create events.
 
 In this project we:
+
 - Made a model for users.
 - Made a model for posts.
 - Made a model for comments.
@@ -23,7 +24,7 @@ Ruby: 2.7.2 Rails: 6.1.1 Postgres: >=13
 ## Usage
 
 - Open a terminal.
-- Clone the repo by typing that command `git clone https://github.com/icebox827/raven` 
+- Clone the repo by typing that command `git clone https://github.com/Mohamed-js/ror-social-scafold.git`
 - Run `bundle install` in your terminal
 - Run `db:create` in your terminal to create the database
 - Run `db:migrate` in your terminal to migrate the database
@@ -31,7 +32,8 @@ Ruby: 2.7.2 Rails: 6.1.1 Postgres: >=13
 - Start adding users, and create events
 
 ## Live demo
-[Just click here!](https://powerful-peak-59867.herokuapp.com/users/sign_in)
+
+[Just click here!](https://desolate-reef-49939.herokuapp.com/users/sign_in)
 
 ## Technologies
 
@@ -43,24 +45,21 @@ Ruby: 2.7.2 Rails: 6.1.1 Postgres: >=13
 
 ## Authors
 
-👤 **Denis Lafontant**
+👤 **Mohamed Atef**
 
-- GitHub: [@icebox827](https://github.com/icebox827)
-- Twitter: [@heracles2k5](https://twitter.com/@heracles2k5)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/denis-lafontant/)
+- GitHub: [@mohamed-js](https://github.com/Mohamed-js)
+- Twitter: [@demovejetta](https://twitter.com/demovejetta)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-js/)
 
-👤 **Victor Pacheco**
+👤 **Andres Felipe Castañeda Ramos**
 
-- GitHub: [@vichuge](https://github.com/vichuge)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/victor-pacheco-7946aab2/)
-- Twitter: [@Pachecofloresv](https://twitter.com/Pachecofloresv)
-
+- Github: [@afcastaneda223](https://github.com/afcastaneda223)
+- Twitter: [@afcastaneda](https://twitter.com/afcastaneda)
+- Linkedin: [Andres Felipe Castañeda](www.linkedin.com/in/andres-castaneda223)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/icebox827/raven/issues/3).
 
 ## Show your support
 
